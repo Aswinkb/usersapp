@@ -31,7 +31,7 @@
                     <div class=" flex flex-col md:flex-row truncate  whitespace-nowrap">
                         <p class="text-gray-500 text-sm \"><i class="fa-solid fa-envelope pe-1 text-sm \"
                                 style="color: #8f98a8;"></i>{{ user.email }}</p>
-                        <p class="text-gray-500 md:ps-10 text-sm \"><i class="fa-solid fa-phone pe-1 text-sm \"
+                        <p class="text-gray-500 md:ps-10 pt-2 md:pt-0 text-sm \"><i class="fa-solid fa-phone pe-1 text-sm \"
                                 style="color: #8f98a8;"></i>{{ user.phone }}</p>
                     </div>
                     <div class="py-2">
