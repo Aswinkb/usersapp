@@ -15,6 +15,7 @@
                         {{ error }}
                     </p>
                 </div>
+                <!-- user details -->
             <div v-else-if="user">
                 <div class="flex">
                     <img class=" h-24 w-24  rounded-full ring-2 ring-white"
@@ -27,10 +28,10 @@
                     </div>
                 </div>
                 <div>
-                    <div class=" flex truncate  whitespace-nowrap">
+                    <div class=" flex flex-col md:flex-row truncate  whitespace-nowrap">
                         <p class="text-gray-500 text-sm \"><i class="fa-solid fa-envelope pe-1 text-sm \"
                                 style="color: #8f98a8;"></i>{{ user.email }}</p>
-                        <p class="text-gray-500 ps-10 text-sm \"><i class="fa-solid fa-phone pe-1 text-sm \"
+                        <p class="text-gray-500 md:ps-10 text-sm \"><i class="fa-solid fa-phone pe-1 text-sm \"
                                 style="color: #8f98a8;"></i>{{ user.phone }}</p>
                     </div>
                     <div class="py-2">
@@ -44,6 +45,7 @@
                     </div>
 
                 </div>
+                <!-- posts -->
                 <div v-if="pisloading"
                     class="text-white  bg-blue-400 sm:w-full sm:text-lg mt-3 w-full h-96 xl:p-60 animate-pulse flex  justify-center items-center">
 
