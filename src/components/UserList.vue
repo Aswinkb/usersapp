@@ -32,13 +32,13 @@
             :to="{ name: 'UserPosts', params: { id: user.id } }"
             v-for="user in users"
             :key="user.id"
-            class="bg-white shadow-lg shadow-black pb-6 hover:scale-105 transition duration-700 ease-in-out rounded-lg overflow-hidden p-4"
+            class="bg-white shadow-sm shadow-black pb-6 hover:scale-105 transition duration-700 ease-in-out rounded-lg overflow-hidden p-4"
           >
             <div class="flex bg-blue-400 p-1 pb-5 justify-between align-center">
               <div class="">
                 <p
                   class="font-bold text-xl drop-shadow-xl"
-                  style="text-shadow: 2px 1px black"
+                  style="text-shadow: 1px 1px black"
                 >
                   {{ user.username }}
                 </p>
@@ -50,15 +50,15 @@
                 alt=""
               />
             </div>
-            <div class="grid grid-cols-2 border border-sky-500">
-              <div class="border flex p-3 border-sky-500 truncate whitespace-nowrap">
+            <div class="grid grid-cols-2 border border-sky-400">
+              <div class="border flex p-3 border-sky-400 truncate whitespace-nowrap">
                 <p class="text-gray-500 text-xs">
                   <i class="fa-solid fa-envelope pe-1 text-sm" style="color: #8f98a8"></i
                   >{{ user.email }}
                 </p>
               </div>
               <div
-                class="border p-3 border-sky-500 text-ellipsis overflow-hidden whitespace-nowrap"
+                class="border p-3 border-sky-400 text-ellipsis overflow-hidden whitespace-nowrap"
               >
                 <p class="text-gray-500 text-xs">
                   <i class="fa-solid fa-phone pe-1 text-sm" style="color: #8f98a8"></i
