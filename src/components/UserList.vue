@@ -38,7 +38,7 @@
               <div class="">
                 <p
                   class="font-bold text-xl drop-shadow-xl"
-                  style="text-shadow: 1px 1px black"
+                  
                 >
                   {{ user.username }}
                 </p>
@@ -50,15 +50,15 @@
                 alt=""
               />
             </div>
-            <div class="grid grid-cols-2 border border-sky-400">
-              <div class="border flex p-3 border-sky-400 truncate whitespace-nowrap">
+            <div class="grid grid-cols-2 border border-blue-400">
+              <div class="border flex p-3 border-blue-400 truncate whitespace-nowrap">
                 <p class="text-gray-500 text-xs">
                   <i class="fa-solid fa-envelope pe-1 text-sm" style="color: #8f98a8"></i
                   >{{ user.email }}
                 </p>
               </div>
               <div
-                class="border p-3 border-sky-400 text-ellipsis overflow-hidden whitespace-nowrap"
+                class="border p-3 border-blue-400 text-ellipsis overflow-hidden whitespace-nowrap"
               >
                 <p class="text-gray-500 text-xs">
                   <i class="fa-solid fa-phone pe-1 text-sm" style="color: #8f98a8"></i
